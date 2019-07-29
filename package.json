@@ -1,5 +1,5 @@
 {
-  "name": "preloadjs-patch",
+  "name": "@xfe-team/preloadjs-patch",
   "version": "0.0.1",
   "description": "修复关于 preloadjs 不能够正确支持 commonjs 的问题",
   "main": "preloadjs.min.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/XFETeam/preloadjs-patch/issues"
   },
-  "homepage": "https://github.com/XFETeam/preloadjs-patch#readme"
+  "homepage": "https://github.com/XFETeam/preloadjs-patch#readme",
+  "publishConfig": {
+    "registry":"https://registry.npmjs.org/"
+  }
 }
