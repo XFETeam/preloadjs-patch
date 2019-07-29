@@ -4,6 +4,7 @@
   "description": "修复关于 preloadjs 不能够正确支持 commonjs 的问题",
   "main": "preloadjs.min.js",
   "scripts": {
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
